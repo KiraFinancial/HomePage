@@ -38,10 +38,10 @@ const WhyKiraSection = () => {
   return (
     <section className="relative py-12 lg:py-16 bg-linear-to-b from-gray-50 to-white overflow-hidden">
       {/* Background Decorative Elements */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+      {/* <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-0 right-0 w-96 h-96 bg-[#d1dae7]/30 rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#8ca1c4]/20 rounded-full blur-3xl"></div>
-      </div>
+      </div> */}
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
@@ -93,7 +93,7 @@ const WhyKiraSection = () => {
           })}
         </div>
 
-        {/* Islamic Accounts Feature - Full Width */}
+        {/* Islamic Accounts Feature  */}
         <div className="relative bg-linear-to-br from-[#003870] via-[#00468e] to-[#0056b3] rounded-2xl p-8 lg:p-10 shadow-xl overflow-hidden">
           {/* Background Pattern */}
           <div className="absolute inset-0 opacity-10">
@@ -135,8 +135,8 @@ const WhyKiraSection = () => {
           </div>
 
           {/* Decorative Elements */}
-          <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-white/10 rounded-full blur-3xl"></div>
-          <div className="absolute -top-10 -left-10 w-40 h-40 bg-white/5 rounded-full blur-3xl"></div>
+          {/* <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-white/10 rounded-full blur-3xl"></div>
+          <div className="absolute -top-10 -left-10 w-40 h-40 bg-white/5 rounded-full blur-3xl"></div> */}
         </div>
       </div>
     </section>
